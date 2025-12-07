@@ -6,7 +6,7 @@ from flask import Flask, render_template_string, request
 app = Flask(__name__)
 
 # 🔧 CONFIGURE AQUI SEU NÚMERO DE WHATSAPP
-WHATSAPP_NUMBER = "5512999999999"  
+WHATSAPP_NUMBER = "5512996677213"  
 WHATSAPP_MESSAGE = "Olá, quero pedir gás com a cheGÁS Já!"
 
 DB_PATH = Path("clientes.db")
