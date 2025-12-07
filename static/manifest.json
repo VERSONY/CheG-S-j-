@@ -1,0 +1,10 @@
+{
+  "name": "cheGÁS Já",
+  "short_name": "cheGÁS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF6B00",
+  "description": "Peça seu gás de forma rápida e simples com a cheGÁS Já.",
+  "lang": "pt-BR"
+}
