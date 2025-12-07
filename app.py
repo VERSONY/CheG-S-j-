@@ -42,8 +42,13 @@ HTML_PAGE = """
   <meta charset="UTF-8">
   <title>cheGÁS Já</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Manifest do PWA -->
+  <link rel="manifest" href="/static/manifest.json">
+  <!-- Cor da barra do navegador / app -->
+  <meta name="theme-color" content="#FF6B00">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+
     body {
       background: #f5f5f5;
       display: flex;
