@@ -164,7 +164,7 @@ HTML_PAGE = """
       </div>
     {% endif %}
 
-    {% if show_button %}
+       {% if show_button %}
       <a
         class="whatsapp-btn"
         href="{{ whatsapp_url }}"
@@ -175,8 +175,23 @@ HTML_PAGE = """
       </a>
     {% endif %}
   </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/static/service-worker.js')
+          .then(function (reg) {
+            console.log('Service worker registrado com sucesso:', reg.scope);
+          })
+          .catch(function (err) {
+            console.log('Erro ao registrar service worker:', err);
+          });
+      });
+    }
+  </script>
 </body>
 </html>
+
 """
 
 
